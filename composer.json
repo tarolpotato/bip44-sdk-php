@@ -1,0 +1,21 @@
+{
+    "name": "jundayw/bip44-sdk-php",
+    "description": "a php sdk of package for bip44",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jundayw",
+            "email": "jundayw@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "simplito/elliptic-php": "1.0.6",
+        "jundayw/bip32-sdk-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jundayw\\Bip44\\": "src/"
+        }
+    }
+}
