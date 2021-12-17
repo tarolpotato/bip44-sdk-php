@@ -38,3 +38,5 @@ for ($i = 0; $i <= 1; $i++) {
     echo PHP_EOL;
 }
 ```
+## Online verify
+[BIP39 - Mnemonic Code](https://iancoleman.io/bip39/)
