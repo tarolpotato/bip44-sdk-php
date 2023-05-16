@@ -1,21 +1,32 @@
 {
-    "name": "jundayw/bip44-sdk-php",
-    "description": "a php sdk of package for bip44",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "jundayw",
-            "email": "jundayw@126.com"
-        }
-    ],
-    "require": {
-        "php": ">=7.2.0",
-        "simplito/elliptic-php": "1.0.6",
-        "jundayw/bip32-sdk-php": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Jundayw\\Bip44\\": "src/"
-        }
+  "name": "tarolpotato/bip44-sdk-php",
+  "description": "a php sdk of package for bip44",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "jundayw",
+      "email": "jundayw@126.com"
     }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "simplito/elliptic-php": "1.0.6",
+    "tarolpotato/bip32-sdk-php": "@dev"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": false,
+  "autoload": {
+    "psr-4": {
+      "Jundayw\\Bip44\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../bip32-sdk-php",
+      "options": {
+        "symlink": true
+      }
+    }
+  ]
 }
