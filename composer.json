@@ -19,14 +19,5 @@
     "psr-4": {
       "Jundayw\\Bip44\\": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../bip32-sdk-php",
-      "options": {
-        "symlink": true
-      }
-    }
-  ]
+  }
 }
